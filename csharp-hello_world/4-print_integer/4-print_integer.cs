@@ -6,7 +6,7 @@ class Program
 	{
 		int number = 972;
 		string mission = "Mission";
-                string street = "Street";
-                Console.WriteLine("{0} {1} {2}", number, mission, street);
-         }
+        string street = "Street";
+        Console.WriteLine("{0} {1} {2}", number, mission, street);
+	}
 }
