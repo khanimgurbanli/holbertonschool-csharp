@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11-concat_edges", "11-concat_edges.csproj", "{AE9B3741-6A17-53AB-8F44-5724AB16D833}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE9B3741-6A17-53AB-8F44-5724AB16D833}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE9B3741-6A17-53AB-8F44-5724AB16D833}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE9B3741-6A17-53AB-8F44-5724AB16D833}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE9B3741-6A17-53AB-8F44-5724AB16D833}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2830B6C9-CC57-48F3-B4C3-D85CD539F376}
+	EndGlobalSection
+EndGlobal
