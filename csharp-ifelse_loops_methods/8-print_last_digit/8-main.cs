@@ -1,9 +1,14 @@
 using System;
 
-class Number
+class Program
 {
-    public static int PrintLastDigit(int number)
+    static void Main(string[] args)
     {
-        return Math.Abs(number % 10);
+        int r;
+
+        Number.PrintLastDigit(98);
+        Number.PrintLastDigit(0);
+        r = Number.PrintLastDigit(-1024);
+        Console.WriteLine(r);
     }
 }
