@@ -1,12 +1,13 @@
 ﻿using System;
 
-class Program
+namespace _4_print_hexa
 {
-    static void Main(string[] args)
+    class Program
     {
-        for (int number = 0; number <= 98; number++)
+        static void Main(string[] args)
         {
-            Console.WriteLine($"{number} = 0x{number:x}\n");
+            for(int i = 0; i<=98; i++)
+                Console.Write("{0} = 0x{0:x}\n",i);
         }
     }
 }
