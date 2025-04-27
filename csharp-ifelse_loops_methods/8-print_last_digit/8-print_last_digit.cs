@@ -1,12 +1,14 @@
 ﻿using System;
-class Number
+
+class Program
 {
-    public static int PrintLastDigit(int number)
+    static void Main(string[] args)
     {
-        int ud = number%10;
-        if (ud < 0)
-            ud = ud * -1;
-        Console.Write(ud);
-        return ud;
+        int r;
+
+        Number.PrintLastDigit(98);
+        Number.PrintLastDigit(0);
+        r = Number.PrintLastDigit(-1024);
+        Console.WriteLine(r);
     }
 }
