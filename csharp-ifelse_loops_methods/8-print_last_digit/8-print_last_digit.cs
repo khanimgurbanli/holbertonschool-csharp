@@ -1,16 +1,9 @@
 ﻿using System;
 
-class Number
+public class Number
 {
-    public static int PrintLastDigit(int number)
+    public static int Add(int a, int b)
     {
-        int num = number % 10;
-        if (num < 0) {
-            num = num * -1;
-            Console.Write("{0}", num);
-            return (num);
-        }
-        Console.Write("{0}", num);
-        return (num);
+        return a + b;
     }
 }
