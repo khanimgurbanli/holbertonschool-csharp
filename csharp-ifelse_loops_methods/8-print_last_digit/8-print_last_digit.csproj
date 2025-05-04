@@ -6,5 +6,10 @@
     <RootNamespace>_8_print_last_digit</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
+  
+  <ItemGroup>
+   <Compile Include="8-main.cs" />
+  </ItemGroup>
+
 
 </Project>
