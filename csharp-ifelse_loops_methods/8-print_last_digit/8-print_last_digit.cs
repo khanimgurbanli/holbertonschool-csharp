@@ -1,9 +1,12 @@
 ﻿using System;
-
-public class Number
+class Number
 {
-    public static int Add(int a, int b)
+    public static int PrintLastDigit(int number)
     {
-        return a + b;
+        int ud = number % 10;
+        if (ud < 0)
+            ud = ud * -1;
+        Console.Write(ud);
+        return ud;
     }
 }
