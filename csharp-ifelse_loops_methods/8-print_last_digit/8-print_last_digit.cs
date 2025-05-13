@@ -7,8 +7,9 @@ class Number
         int num = number % 10;
         if (num < 0)
         {
-            num *= -1;
+            num = num * -1;
         }
+        Console.Write(num);
         return num;
     }
 }
