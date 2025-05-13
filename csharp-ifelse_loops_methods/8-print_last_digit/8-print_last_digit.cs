@@ -9,7 +9,6 @@ class Number
         {
             num *= -1;
         }
-        Console.Write("{0}", num);
         return num;
     }
 }
